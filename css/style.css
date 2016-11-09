@@ -1,17 +1,61 @@
-html, body {
-    height: 100%;
-}
 body {
     margin: 0 auto;
-    padding: 0;
+    color: white;
     background-color: black;
 }
-.wrapper {
-    width: 100%;
-    color: white;
+ul {
+    list-style-type: none;
 }
-.logo {
-    background-image: url("images/iphones.jpg");
-    width: 100%;
-    height: 80%;
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+.row {
+    margin: 15px;
+}
+.store p a {
+    color: white;
+    line-height: 15px;
+    background-color: black;
+    border: 1px solid #59B1F6;
+    font-size: 17px;
+    font-weight: 300;
+    display: inline-block;
+    padding: 11px 25px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+.contact {
+    margin: 10px;
+}
+.table {
+    max-width: 100%;
+}
+.map {
+    border-color: white;
+}
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
 }

@@ -4,33 +4,112 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>MYAPPLE</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
         <link rel="stylesheet" href="css/reset.css" type="text/css" />
         <link rel="stylesheet" href="css/style.css" type="text/css" />
+
     </head>
-    <body>
-        <div class="wrapper">
-        <!-- HEADER with nav (burger menu) and background img with logo name and short info about website
-        and carussel with second page about iphone7 not video-->
+    <body class="container-fluid">
         <header>
-        <!-- NAV  fixed menu, slow prokrutka with  - about us, services and contact-->
             <nav>
-                <ul>
-                    <li>Про нас</li>
-                    <li>Продукція</li>
-                    <li>Контакти</li>
+                <ul class="clearfix">
+                    <li><a href="main.html">Головна</a></li>
+                    <li><a href="service.html">Каталог продукції</a></li>
+                    <li><a href="contact.html">Контакти</a></li>
                 </ul>
             </nav>
-            <div class="logo carussel">MYAPPLE</div>
+            <div class="logo">
+                <div class="logo_pic">
+                    <img src="images/iphones.jpg" alt="iphones" height="450px" width="800px">
+                </div>
+                <div class="about">
+                    <img src="images/logo.jpg" alt="logo" height="450px" width="600px">
+                </div>
+            </div>
         </header>
-        <main> 
-        <!-- SECTION with left section - PRESENTATION Iphone 7 - youtube - OR !!! Prices - Iphones
-        Center - apple watches
-        Left - services or itunes or cases! -->
-            <section>
-                
-            </section>
+        <main>
+            <div class="store">
+                <h1>Каталог продукції</h1><br>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <p class="img-block-podcat">
+                            <img src="images/iphone.jpg" alt="iphone" class="img-responsive">
+                            </p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <h2>iPhone</h2><br>
+                                <p>ряд смартфонів, розроблений компанією Apple і випущений 2007 року. 
+    iPhone функціонує як камерофон, портативний медіа-плеєр, інтернет-клієнт (з електронною поштою, веб-браузером та Wi-Fi), зокрема з можливостями відправки SMS та візуальної голосової пошти. 
+    Головною особливістю смартфону є сенсорний екран з технологією multi-touch, навколо якого побудований інтерфейс користувача з віртуальною клавіатурою замість фізичної.
+    Є вбудована можливість створення скріншотів одночасним натисканням кнопки виключення телефону і кнопки «Додому», результат при цьому зберігається в альбомі «Фотоплівка».
+    Зараз єдиним офіційним засобом зв'язку iPhone з комп'ютером є програма iTunes, доступна тільки для користувачів операційних систем від Apple і Microsoft.</p>
+                    <p><a href="iphone.html">Детальніше</a></p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <p class="img-block-podcat">
+                        <img src="images/watch.jpg" alt="watch" class="img-responsive">
+                    </p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <h2>Apple Watch</h2><br>
+                        <p>Наручний годинник із додатковими функціями (розумний годинник) створений корпорацією Apple. 
+    Для його повноцінної роботи потрібен смартфон сімейства iPhone 5 або більш пізньої модифікації.
+    Годинники мають поворотне коліщатко для прокрутки або збільшення. Дисплей має розмір 38х38 або 42×42 мм, і здатний розрізняти натискання і дотик.
+    На нижній стороні годинників можуть бути розташовані світлодіоди і фотодіоди для вимірювання пульсу. 
+    Також є в наявності інтерфейс NFC, який дозволить робити безконтактну оплату через систему Apple Pay.</p>
+                    <p><a href="watch.html">Детальніше</a></p>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <p class="img-block-podcat">
+                        <img src="images/ipad.png" alt="ipad" class="img-responsive">
+                    </p>
+                    </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <h2>iPad</h2><br>
+                        <p>серія планшетних комп'ютерів від Apple Inc. Заявлені як проміжний варіант між ноутбуками MacBook і портативними медіаплеєрами iPod Touch, 
+    здатний виконувати певні операції, пов'язані з переглядом відео, прослуховуванням аудіозаписів, читанням електронних книг, 
+    а також використанням можливостей Інтернету краще за обидва вищевказані пристрої.
+    Керування здійснюється пальцями через сенсорний дисплей Multi-touch, що не схоже на попередні планшетні комп'ютери, які використовували перо. Для перегляду інтернету використовується Wi-Fi або 3G. 
+    USB кабель синхронізує iPad з комп'ютером через програму iTunes, так само як і iPhone. </p>
+                    <p><a href="watch.html">Детальніше</a></p>
+                </div>
+            </div>
+            </div>
+            </div>
+            <div class="contact">
+                <table class="table tale-hover">
+                    <h2>Контакти</h2><br>
+                    <tbody>
+                        <tr>
+                            <td>Контактний номер: </td>
+                            <td>+38-073-692-77-53, +38-067-697-64-24</td>
+                        </tr>
+                        <tr>
+                            <td>Адреса</td>
+                            <td>м. Львів, вул. Ф. Ліста, 10 (vul. Frnz. Lista, 10) </td>
+                        </tr>
+                        <tr>
+                            <td>E-mail: </td>
+                            <td>lalala</td>
+                        </tr>
+                        <tr>
+                            <td>Графік роботи: </td>
+                            <td>Пн - Нд з 10:00 до 19:00</td>
+                        </tr>
+                    </tbody>
+                </table
+            </div>
+            <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.2007181192794!2d24.02551031570934!3d49.83868597939574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6e46dc5cc5%3A0xb2bac211225e57da!2z0LLRg9C70LjRhtGPINCk0LXRgNC10L3RhtCwINCb0ZbRgdGC0LAsIDEwLCDQm9GM0LLRltCyLCDQm9GM0LLRltCy0YHRjNC60LAg0L7QsdC70LDRgdGC0Yw!5e0!3m2!1suk!2sua!4v1478693992869" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
         </main>
-        <footer></footer>
-        </div>
+        <footer>
+            <p>MYAPPLE ©2016</p>
+            <p><a href="https://www.facebook.com/olena.zhdan">Olena Usyk</a></p>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
     </body>
 </html>
